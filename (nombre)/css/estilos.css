@@ -1,3 +1,83 @@
+/* Reseteo pagina */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.titulo-header {
+  font-size: 24px;
+  color: #ff4d00;
+  user-select: none;
+}
+
+.usuario-barra{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 5px;
+  background-color: #6b6a6a;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+nav{
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ff4d00;
+}
+
+.area-usuario{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+}
+
+.fa-cart-shopping {
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+
+.usuario-barra img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.usuario-barra p {
+  color: white;
+  font-size: 14px;
+}
+
+
+
+
 /*Footer */
 .main-footer {
   background-color: #f8f8f8;
