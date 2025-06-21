@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Orbitron', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Header */
@@ -23,6 +23,7 @@ header {
   font-size: 24px;
   color: #ff4d00;
   user-select: none;
+  text-shadow: 0 0 10px red;
 }
 
 .usuario-barra{
@@ -128,7 +129,7 @@ nav a:hover {
   font-family: 'Inter', sans-serif;
 }
 
-.footer-bottom {
+.footer-icono {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -136,10 +137,10 @@ nav a:hover {
   flex-wrap: wrap;
 }
 
-.footer-bottom i{
+.footer-icono i{
   cursor: pointer;
   font-size: 25px;
 }
-.footer-bottom i:hover{
+.footer-icono i:hover{
   color: #ff4d00;
 }

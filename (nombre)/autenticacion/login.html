@@ -19,8 +19,10 @@
     />
     <link href="https://fontawesome.com/search" rel="stylesheet" />
 
-    <!-- CSS global -->
-  <link rel="stylesheet" href="css/estilos.css" />
+    <!-- CSS -->
+  <link rel="stylesheet" href="../css/estilos.css" />
+  <link rel="stylesheet" href="../css/estilos_autenticacion.css" />
+
 
   </head>
   <body>
@@ -34,48 +36,39 @@
       </nav>
 
       <div class="area-usuario">
-        <div class="carrito"> <a href="carrito.html">
+        <div class="carrito"> <a href="../carrito.html">
         <i class="fa-solid fa-cart-shopping"></i>
         </a>
       </div>
       
 
       <div class="usuario-barra">
-        <img src="img/foto perfil.jpg" alt="foto de usuario" />
+        <img src="../img/foto perfil.jpg" alt="foto de usuario" />
         <p>Lionel Messi</p>
       </div>
       </div>
     </header>
 
-    <main>
-  <section class="banner">
-    <img
-      src="img/imagenes-home/banner.jpg"
-      alt="banner pagina"
-    />
-  </section>
-
-  <section class="noticias">
-    <div class="noticia">
-      <img src="img/imagenes-home/noticia1.jpg" alt="" />
-      <h4>Noticia de juegos</h4>
-      <p>Una parte de la noticia...</p>
+ <main class="autent-contenedor">
+    <div class="autent-caja">
+      <h1>¡Hola!</h1>
+      <form class="autent-form">
+        <label>
+          <span class="sr-only">Usuario</span>
+          <input type="text" placeholder="Tu nombre de usuario" required />
+        </label>
+        <label>
+          <span class="sr-only">Contraseña</span>
+          <input type="password" placeholder="Tu contraseña" required />
+        </label>
+        <button type="submit" class="btn-autent">Iniciar Sesión</button>
+      </form>
+      <p class="autent-footer-text">
+        ¿No tienes cuenta?
+        <a href="register.html">Regístrate</a>
+      </p>
     </div>
-
-    <div class="noticia">
-      <img src="img/imagenes-home/noticia1.jpg" alt="" />
-      <h4>Noticia de juegos</h4>
-      <p>Una parte de la noticia...</p>
-    </div>
-
-    <div class="noticia">
-      <img src="img/imagenes-home/noticia1.jpg" alt="" />
-      <h4>Noticia de juegos</h4>
-      <p>Una parte de la noticia...</p>
-    </div>
-  </section>
-</main>
-
+  </main>
 
     <footer class="main-footer">
       <div class="footer-icono">
