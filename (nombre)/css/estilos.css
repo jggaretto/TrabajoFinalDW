@@ -19,10 +19,13 @@ header {
   color: white;
 }
 
+header a{
+  text-decoration: none;
+}
+
 .titulo-header {
   font-size: 24px;
   color: #ff4d00;
-  user-select: none;
 }
 
 .usuario-barra{
