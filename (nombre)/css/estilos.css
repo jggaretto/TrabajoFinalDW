@@ -83,8 +83,9 @@ nav a:hover {
   background-color: #f8f8f8;
   padding: 20px 0;
   font-family: 'Inter', sans-serif;
+}
 
-  .footer-bottom {
+.footer-bottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -92,4 +93,10 @@ nav a:hover {
   flex-wrap: wrap;
 }
 
+.footer-bottom i{
+  cursor: pointer;
+  font-size: 25px;
+}
+.footer-bottom i:hover{
+  color: #ff4d00;
 }
