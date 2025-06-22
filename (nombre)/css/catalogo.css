@@ -1,0 +1,70 @@
+/* Contenedor del catálogo */
+.catalogo {
+   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  justify-items: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Tarjeta de cada juego */
+.juego {
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 280px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Imagen del juego */
+.juego img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Título y detalles */
+.juego h3 {
+  margin: 1rem 1rem 0.5rem;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.juego p {
+  margin: 0.2rem 1rem;
+  font-size: 0.9rem;
+  color: #cccccc;
+}
+
+.precio {
+  font-weight: bold;
+  color: #00ff99;
+  margin-top: 0.5rem;
+}
+
+/* Botón */
+.juego button {
+   margin: 1rem;
+  padding: 0.6rem 1rem;
+  width: calc(100% - 2rem);
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.juego button:hover {
+  background-color: white;
+  color: red;
+  box-shadow: 0 0 10px red;
+}
