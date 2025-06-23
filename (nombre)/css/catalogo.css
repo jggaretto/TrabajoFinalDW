@@ -20,7 +20,7 @@
   border-radius: 12px;
   overflow: hidden;
   width: 280px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+  box-shadow: 0 0px 12px rgba(248, 94, 94, 0.911);
   transition: transform 0.3s, box-shadow 0.3s;
   text-align: center;
   text-decoration: none;
@@ -75,15 +75,22 @@
 }
 
 .categorias{
-  background-color: #1e1e1e;
+  background: linear-gradient(145deg, #1a1a1a, #262626);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
   width: 20%;
   color: #ffffff;
-  height: 120px;
+  height: 220px;
   margin: 32px 32px 0 0;
+}
+
+.lista-categorias, .titulo-categorias{
+  margin-left: 5px;
 }
 
 .lista-categorias li{
   width: 90px;
   cursor: pointer;
-  margin: 5px;
+  margin: 10px 5px;
 }
