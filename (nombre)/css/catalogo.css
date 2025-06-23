@@ -75,10 +75,10 @@
 }
 
 .categorias{
-  background: linear-gradient(145deg, #1a1a1a, #262626);
+  background: #1a1a1a;
   border-radius: 12px;
   padding: 20px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+  box-shadow: 0 0px 12px rgba(82, 80, 80, 0.911);
   width: 20%;
   color: #ffffff;
   height: 220px;
