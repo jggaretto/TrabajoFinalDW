@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Noticias</title>
-      <link
+    
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">  
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
       rel="stylesheet"
     />
@@ -14,19 +16,23 @@
     />
     <link href="https://fontawesome.com/search" rel="stylesheet" />
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/noticias.css">
 </head>
 <body>
-   <header>
-      <h1 class="titulo-header">UGM Gaming</h1>
-
+     <header>
+        <a href="index.html"><h1 class="titulo-header">UGM Gaming</h1></a>
+        
       <nav>
-        <a href="">Catalogo</a>
-        <a href="">Ofertas</a>
-        <a href="">Noticias</a>
+        <a href="catalogo.html">Catalogo</a>
+        <a href="promocion.html">Ofertas</a>
       </nav>
 
       <div class="area-usuario">
-      <i class="fa-solid fa-cart-shopping"><a href=""></a></i>
+        <div class="carrito"> <a href="carrito.html">
+        <i class="fa-solid fa-cart-shopping"></i>
+        </a>
+      </div>
+      
 
       <a href="" class="usuario-barra">
         <img src="img/foto perfil.jpg" alt="foto de usuario" />
@@ -35,32 +41,41 @@
       </div>
     </header>
   <main>
-    <section>
-      <h2>Destacadas</h2>
+    <section class="noticias-section">
+      <h2>Noticias Destacadas</h2>
 
-      <article>
-        <h3>Nuevas actualizaciones</h3>
+      <div class="noticias-grid">
+
+        <article class="noticia-card">
+          <img src="img/Imagenes noticias/FC26.jpg" alt="FIFA 26" />
+          <h3>FIFA 26 ya tiene fecha de lanzamiento</h3>
           <time datetime="2025-06-20">20 de junio de 2025</time>
-        <p><em>Estamos trabajando en constantes actualizaciones para nuestra pagina web.</em></p>
-      </article>
-      <article>
-        <h3>Mayor comodidad y visibilidad</h3>
-          <p><em>Nuevos logos y mayor creatividad a la hora de presentar sus noticias Gaming!!!</em></p>
-        <a href="#">Leer más</a>
-      </article>
-    </section>
-    <section>
-  <h2>Próximos lanzamientos</h2>
-  <ul>
-    
-    <div><li>FIFA 26 - 15/08/2025</li>
-    <img src="img/Imagenes noticias/FC26.jpg" alt="Imagen Fifa26"width="150px"/></div>
-   <div><li>GTA VI - 22/10/2025</li>
-<img src="img/Imagenes noticias/Gta 6.jpg" alt="Imagen GtaVI"width="150px"/></div> 
-   <div><li>Assassin’s Creed Shadows - 01/12/2025</li><img src="img/Imagenes noticias/Assasins creed.avif" alt="Imagen Assassin’s creed" width="150px"/> </div> 
-  </ul>
-</section>
+          <p>La nueva entrega promete revolucionar la saga con gráficos renovados y nuevas ligas.</p>
+          <a href="#">Leer más</a>
+        </article>
 
+        <article class="noticia-card">
+          <img src="img/Imagenes noticias/Gta 6.jpg" alt="GTA VI" />
+          <h3>GTA VI revela su primer trailer oficial</h3>
+          <time datetime="2025-06-22">22 de junio de 2025</time>
+          <p>Los fans enloquecieron con el nuevo avance de Rockstar. Salida confirmada en octubre.</p>
+          <a href="#">Ver más</a>
+        </article>
+
+        <article class="noticia-card">
+          <img src="img/Imagenes noticias/Cyberpunk john wick.jpg" alt="Cyberpunk 2077" />
+          <h3>Cyberpunk 2077 se actualiza con mejoras gráficas</h3>
+          <time datetime="2025-06-19">19 de junio de 2025</time>
+          <p>La última actualización trae trazado de rayos optimizado y más contenido para jugadores avanzados.</p>
+          <a href="#">Descubrilo</a>
+        </article>
+        <article class="noticia-card">
+          <img src="img/Imagenes noticias/Assasins creed.avif" alt="Assasins creed" />
+          <h3>La historia de Naoe y Yasuke promete ser la más ambiciosa de la saga</h3>
+          <time datetime="2025-06-18">18 de junio de 2025</time>
+          <p>Assassin’s Creed Shadows tendrá dos protagonistas: Naoe (una shinobi) y Yasuke (un samurái histórico). El sistema de sigilo y combate fue rediseñado completamente, con mecánicas más cercanas a Splinter Cell y con ciclo día/noche que afecta el comportamiento de los enemigos.</p>
+          <a href="#">Descubrilo</a>
+        </article>
     <aside>
       <h3>Lo Más Leído</h3>
       <ul>
@@ -72,26 +87,26 @@
   </main>
  
   <section>
-  <h2>Dejá tu comentario</h2>
-  <form>
+  <h2>Dejá tu comentario</h2 > 
+  <form class="comentarios">
     <input type="text" placeholder="Tu nombre" required>
     <textarea placeholder="Escribí tu comentario aquí..." required></textarea>
     <button type="submit">Enviar</button>
   </form>
 </section>
 
- <footer class="main-footer">
-      <div class="footer-icono">
-        <div class="footer-redes-izquierda">
+<footer class="main-footer">
+      <div class="footer-bottom">
+        <div class="footer-social-left">
           <i class="fa-brands fa-instagram"></i>
           <i class="fa-brands fa-x-twitter"></i>
           <i class="fa-brands fa-facebook"></i>
           <i class="fa-brands fa-youtube"></i>
         </div>
-        <p class="footer-derechos">
+        <p class="footer-rights">
           © UGM Gaming. Todos los derechos reservados.
         </p>
-        <div class="footer-apps-derecha">
+        <div class="footer-apps-right">
           <i class="fa-brands fa-google-play"></i>
           <i class="fa-brands fa-apple"></i>
         </div>
