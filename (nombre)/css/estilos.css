@@ -96,16 +96,18 @@ nav a:hover {
 
 .noticia {
   width: 200px;
-  background-color: #fff;
+  height: 220px;
+  background-color: #1a1a1a;
   padding: 10px;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 15px rgb(233, 4, 4);
   text-align: center;
+  text-decoration: none;
 }
 
 .noticia img {
   width: 100%;
-  height: auto;
+  height: 100px;
   border-radius: 5px;
 }
 
@@ -116,7 +118,7 @@ nav a:hover {
 
 .noticia p {
   font-size: 0.9rem;
-  color: #555;
+  color: #ffffff;
 }
 
 
