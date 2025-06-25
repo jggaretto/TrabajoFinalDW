@@ -35,10 +35,10 @@ header a{
 .usuario-barra{
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
   padding: 5px 5px;
   background-color: #6b6a6a;
-  border-radius: 50px;
+  border-radius: 10px;
   cursor: pointer;
 }
 
@@ -60,21 +60,13 @@ nav a:hover {
 .area-usuario{
   display: flex;
   align-items: center;
-  gap: 30px;
-
+  gap: 35px;
 }
 
 .fa-cart-shopping {
   font-size: 20px;
   color: white;
   cursor: pointer;
-}
-
-
-.usuario-barra img {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
 }
 
 .usuario-barra p {
@@ -146,6 +138,7 @@ nav a:hover {
 .footer-icono i{
   cursor: pointer;
   font-size: 25px;
+  margin-left: 10px;
 }
 .footer-icono i:hover{
   color: #ff4d00;
