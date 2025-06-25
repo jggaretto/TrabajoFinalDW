@@ -145,3 +145,45 @@
   color: red;
   box-shadow: 0 0 10px red;
 }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .carrito-contenedor {
+    padding: 15px;
+    margin: 20px 10px;
+  }
+
+  .carrito-titulo {
+    font-size: 24px;
+  }
+
+  .carrito-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .carrito-item img {
+    width: 100%;
+    max-width: 300px;
+    margin-right: 0;
+  }
+
+  .item-acciones {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .item-precio {
+    margin-left: 0;
+    width: 100%;
+    text-align: right;
+  }
+
+  .btn-pagar {
+    width: 100%;
+    display: inline-block;
+    margin-top: 10px;
+  }
+}
