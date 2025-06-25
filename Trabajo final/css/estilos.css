@@ -1,4 +1,5 @@
 /* Reseteo pagina */
+/* Reset y base */
 * {
   margin: 0;
   padding: 0;
@@ -6,13 +7,27 @@
   color: #fff;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   font-family: 'Orbitron', sans-serif;
-    background-color: #000000;
+  background-color: #000000;
+}
+
+main {
+  flex: 1;
 }
 
 /* Header */
 header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,7 +36,7 @@ header {
   color: white;
 }
 
-header a{
+header a {
   text-decoration: none;
 }
 
@@ -32,7 +47,7 @@ header a{
   text-shadow: 0 0 10px red;
 }
 
-.usuario-barra{
+.usuario-barra {
   display: flex;
   align-items: center;
   gap: 15px;
@@ -42,7 +57,7 @@ header a{
   cursor: pointer;
 }
 
-nav{
+nav {
   display: flex;
   gap: 20px;
 }
@@ -57,7 +72,7 @@ nav a:hover {
   color: #ff4d00;
 }
 
-.area-usuario{
+.area-usuario {
   display: flex;
   align-items: center;
   gap: 35px;
@@ -73,7 +88,6 @@ nav a:hover {
   color: white;
   font-size: 14px;
 }
-
 
 /* Banner */
 .banner img {
@@ -121,8 +135,7 @@ nav a:hover {
   color: #ffffff;
 }
 
-
-/*Footer */
+/* Footer */
 .main-footer {
   background-color: #1a1a1a;
   padding: 20px 0;
@@ -137,11 +150,12 @@ nav a:hover {
   flex-wrap: wrap;
 }
 
-.footer-icono i{
+.footer-icono i {
   cursor: pointer;
   font-size: 25px;
   margin-left: 10px;
 }
-.footer-icono i:hover{
+
+.footer-icono i:hover {
   color: #ff4d00;
 }
