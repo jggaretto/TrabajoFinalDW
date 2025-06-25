@@ -159,3 +159,66 @@ nav a:hover {
 .footer-icono i:hover {
   color: #ff4d00;
 }
+
+
+/* Codigo Responsive */
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .area-usuario {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .banner img {
+    height: 180px;
+  }
+
+  .noticias {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .noticia {
+    width: 90%;
+    max-width: 300px;
+  }
+
+  .footer-icono {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+
+  .footer-icono i {
+    margin: 0 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .titulo-header {
+    font-size: 20px;
+  }
+
+  .usuario-barra p {
+    font-size: 12px;
+  }
+
+  .noticia h4 {
+    font-size: 1rem;
+  }
+
+  .noticia p {
+    font-size: 0.8rem;
+  }
+
+  .banner img {
+    height: 150px;
+  }
+}

@@ -63,3 +63,44 @@
   color: red;
   box-shadow: 0 0 10px red;
 }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .detalle-contenido {
+    padding: 20px 15px;
+  }
+
+  .detalle-contenido h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .detalle-contenido p {
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  .imagenes-juego {
+    justify-content: center;
+  }
+
+  .imagenes-juego img {
+    width: 100%;
+    max-width: 90%;
+  }
+
+  .video-trailer iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+  }
+
+  .boton-agregar {
+    margin-top: 20px;
+  }
+
+  .boton-agregar button {
+    width: 100%;
+    max-width: 300px;
+  }
+}

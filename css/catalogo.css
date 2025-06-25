@@ -94,3 +94,51 @@
   cursor: pointer;
   margin: 10px 5px;
 }
+
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contenedor-principal{
+    display: flex;
+    flex-direction: column;
+  }
+  .catalogo {
+    order: 2;
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+
+  .juego {
+    max-width: 95%;
+  }
+
+  .juego h3 {
+    font-size: 1rem;
+  }
+
+  .juego p {
+    font-size: 0.8rem;
+  }
+
+  .juego button {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+  }
+
+  
+  .categorias {
+      order: 1;
+    width: 100%;
+    margin: 1rem 0;
+    text-align: center;
+  }
+
+  .lista-categorias li{
+    margin: 8px 0;
+    text-align: center;
+    padding-left: 10px;
+  }
+
+}
+
